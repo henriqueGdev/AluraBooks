@@ -16,7 +16,7 @@
    <header class="cabecalho">
     <div class="container">
         <input type="checkbox" id="menu" class="container__botao">
-        <label for="menu">
+        <label for="menu" class="container__rotulo">
            <span class="cabecalho__menu-hamburguer container__imagem"></span>
         </label>
         <ul class="lista-menu">
@@ -44,7 +44,7 @@
 
     <ul class="opcoes">
         <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-        <label for="opcoes-menu">
+        <label for="opcoes-menu" class="opcoes__rotulo">
         <li class="opcoes__item">Categorias</li>
         </label>
         
@@ -90,7 +90,9 @@
    </section>
    <section class="carrossel">
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
-    <div class="swiper">
+
+    <div class="carrossel__container">
+      <div class="swiper">
         <!-- Additional required wrapper -->
           <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -132,10 +134,12 @@
             <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
       </div>
+    </div>
    </section>
    <!--Mais vendidos-->
    <section class="carrossel">
     <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <div class="carrossel__container">
     <div class="swiper">
         <!-- Additional required wrapper -->
           <!-- If we need pagination -->
@@ -178,6 +182,7 @@
             <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
       </div>
+    </div>
     </section>
     
     <section class="topicos">
